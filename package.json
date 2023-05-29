@@ -1,6 +1,6 @@
 {
   "name": "curved-arrow-react",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Curvy arrows for your React project!",
   "main": "dist/CurvedArrow.js",
   "types": "dist/CurvedArrow.d.ts",
