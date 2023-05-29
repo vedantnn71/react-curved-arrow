@@ -1,10 +1,11 @@
 {
-  "name": "react-curved-arrow",
+  "name": "curved-arrow-react",
   "version": "0.0.9",
   "description": "Curvy arrows for your React project!",
   "main": "dist/CurvedArrow.js",
+  "types": "dist/CurvedArrow.d.ts",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir dist/ && tsc",
     "clean": "rm -rf dist && mkdir -p dist",
     "serve": "babel --watch 'src' --out-dir 'dist'",
     "prepublish": "npm run-script build"
@@ -13,9 +14,10 @@
     "/src",
     "/dist"
   ],
-  "author": "Nick Janssen <nick@laska.io> (https://laska.io)",
+  "author": "Vedant Nandwana <vedantnn7.git@gmail.com> (https://twitter.com/vedantnn7)",
   "license": "MIT",
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "react": "16.12.0"
   },
   "babel": {
@@ -48,7 +50,7 @@
     "@babel/core": "^7.0.0-beta.51",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.0.0-beta.51",
-    "babel-plugin-transform-react-jsx": "^6.24.1"
-  },
-  "gitHead": "7f4bff022c71a706022c7e60d2288b222582af3d"
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "typescript": "^5.0.4"
+  }
 }

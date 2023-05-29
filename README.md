@@ -1,16 +1,13 @@
-![logo](https://react-curved-arrow.nickjanssen.com/logo.png)
 Fancy curved arrows for your React project! Great for tutorials and product tours!
-
-https://react-curved-arrow.nickjanssen.com/
 
 ## Installation
 
-`yarn add react-curved-arrow`
+`pnpm add curved-react-arrow`
 
 ## Usage
 
 ```jsx
-import CurvedArrow from "react-curved-arrow";
+import CurvedArrow from "curved-react-arrow";
 
 // Usage
 <CurvedArrow />
@@ -34,15 +31,4 @@ import CurvedArrow from "react-curved-arrow";
 |dynamicUpdate|boolean|Automatically adjust the arrow whenever the from/to DOM elements update. Useful for dynamic content such as sliding menus or content that is within a scrolling container.|false|
 |zIndex|number|Adjust the z-index for this arrow.|0|
 
-## Try it out!
 
-[Open in CodeSandbox](https://codesandbox.io/s/wild-wave-32jt9)
-
-Made with ❤️ by [Nick Janssen](https://twitter.com/nickjanssen_com)
-
-## Special thanks
-
-Special thanks to [prscoelho](https://github.com/prscoelho) for his `quadraticCurveMinMax` implementation!
-
-# License
-MIT

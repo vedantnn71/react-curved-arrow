@@ -1,0 +1,14 @@
+{
+  "files": ["src/CurvedArrow.js"],
+  "exclude": ["node_modules", "../../*"],
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "es6", "dom", "esnext"],
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": true,
+    "skipLibCheck": true
+  }
+}
