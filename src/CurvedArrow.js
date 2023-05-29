@@ -63,13 +63,6 @@ function isServerSide() {
   return typeof window === "undefined";
 }
 
-/**
- * @class CurvedArrow 
- * extends React.PureComponent<Props>
- * @property {number | null} timer - timer for dynamic update 
- * @property {Props} props - props 
- * @property {React.CSSProperties} style - style of the arrow 
- */
 export default class CurvedArrow extends React.PureComponent {
   componentWillUnmount() {
     if (this.timer) clearTimeout(this.timer);
